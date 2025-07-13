@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS posts (id UUID PRIMARY KEY, title TEXT, content TEXT, created_at TIMESTAMP DEFAULT NOW());
